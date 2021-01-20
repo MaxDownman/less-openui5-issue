@@ -1,0 +1,39 @@
+{
+  "name": "openui5_issue",
+  "version": "0.0.1",
+  "description": "Openui5 issue",
+  "private": true,
+  "main": "/src/index.html",
+  "ui5version": {
+    "current": "1.71.26",
+    "next": "1.71.28"
+  },
+  "buildPath": "build.snapshots",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "connect-openui5": "^0.9.0",
+    "grunt": "^1.0.4",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-connect-proxy": "0.2.0",
+    "grunt-connect-rewrite": "^0.2.2",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-compress": "^1.6.0",
+    "grunt-contrib-connect": "^3.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-rename": "^0.2.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-eslint": "^22.0.0",
+    "grunt-http": "^2.3.2",
+    "grunt-nwabap-ui5uploader": "^0.3.4",
+    "grunt-openui5": "^0.18.0",
+    "grunt-text-replace": "^0.4.0",
+    "grunt-zip": "^0.18.2",
+    "http-proxy-middleware": "^0.20.0",
+    "https-proxy-agent": "^3.0.1",
+    "load-grunt-config": "^3.0.1",
+    "semver": "^6.3.0",
+    "serve-index": "^1.9.1",
+    "serve-static": "^1.14.1"
+  }
+}
